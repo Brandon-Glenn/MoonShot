@@ -56,13 +56,6 @@ struct ContentView: View {
             .navigationTitle("MoonShot")
             .background(.darkBackground)
             .preferredColorScheme(.dark)
-            .toolbar{
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(isGridView ? "List" : "Grid") {
-                        isGridView.toggle()
-                    }
-                }
-            }
         }
         
     }
