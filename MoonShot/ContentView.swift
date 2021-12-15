@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var isGridView = true
     
     let astronauts: [String: Astronaut] = Bundle.main.decode(file: "astronauts.json")
     let missions: [Mission] = Bundle.main.decode(file: "missions.json")
